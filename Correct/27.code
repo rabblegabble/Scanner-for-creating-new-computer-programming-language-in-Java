@@ -1,0 +1,12 @@
+procedure c27 is
+	record x;
+	record y;
+begin
+	x := new record[1];
+	x := 4;
+	y := record x;
+	while not x = 0 do
+		y := y-1;
+	end
+	out(x);
+end

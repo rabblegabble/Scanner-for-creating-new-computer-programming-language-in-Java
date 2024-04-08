@@ -1,0 +1,14 @@
+procedure c30 is
+	record x;
+	record y;
+	record z;
+begin
+	x := new record[1];
+	y := record x;
+	z := record y;
+	x := 64;
+	while not z = 0 and y = 0 do
+		x := x-1;
+		out(x);
+	end
+end

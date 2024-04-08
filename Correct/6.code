@@ -1,0 +1,7 @@
+procedure c6 is
+	record x;
+begin
+	x := new record[1];
+	x[0] := 5;
+	out(x[0]);
+end

@@ -1,0 +1,9 @@
+procedure c29 is
+	integer x;
+begin
+	x := 0;
+	while x < 10 do
+		out(in());
+		x := x + 1;
+	end
+end

@@ -1,0 +1,5 @@
+procedure c3 is
+	integer x;
+begin
+	out(in());
+end

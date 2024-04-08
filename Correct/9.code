@@ -1,0 +1,9 @@
+procedure c9 is
+	record y;
+begin
+	record x;
+	x := new record[1];
+	y := record x;
+	x[0] := 5;
+	out(y[0]);
+end

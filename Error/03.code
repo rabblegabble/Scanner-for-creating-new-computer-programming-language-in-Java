@@ -1,0 +1,6 @@
+procedure e03 is
+	record x;
+begin
+	x := new record[5];
+	x[5] := 1;
+end

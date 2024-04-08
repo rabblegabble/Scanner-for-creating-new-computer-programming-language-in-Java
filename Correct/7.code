@@ -1,0 +1,7 @@
+procedure c7 is
+begin
+	record x;
+	x := new record[5];
+	x[3] := 5;
+	out(x[3]);
+end

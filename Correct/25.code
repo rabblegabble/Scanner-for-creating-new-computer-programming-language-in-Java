@@ -1,0 +1,16 @@
+procedure c25 is
+	record x;
+	record y;
+begin
+	record n;
+	x := new record[1];
+	n := new record[1];
+	n := 5;
+	x := 4;
+	y := record x;
+	while not x = 0 do
+		n := n*x;
+		y := y-1;
+		out(n);
+	end
+end

@@ -1,0 +1,7 @@
+procedure c8 is
+	record x;
+begin
+	x := new record[1];
+	x := 5;
+	out(x);
+end

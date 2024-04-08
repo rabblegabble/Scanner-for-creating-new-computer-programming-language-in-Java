@@ -1,0 +1,12 @@
+procedure c26 is
+	record x;
+	integer n;
+begin
+	x := new record[1];
+	x := 4;
+	while not x = 0 do
+		n := in();
+		x := x-1;
+		out(n);
+	end
+end

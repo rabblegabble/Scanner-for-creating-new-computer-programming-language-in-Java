@@ -1,0 +1,13 @@
+procedure c20 is
+	record x;
+	record y;
+	record z;
+begin
+	x := new record[1];
+	y := new record[1];
+	z := new record[1];
+	x := 5;
+	y := 10;
+	z := x - y * 5 - 5;
+	out(z);
+end
